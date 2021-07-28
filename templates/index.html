@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MOVIE RECOMMENDER SYSTEM</title>
+    <link href="static/CSS/main.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+  </head>
+  <body  >
+    <link href="static/CSS/main.css" rel="stylesheet" >
+     <div class="section">
+       <h1><span>MOVIE RECOMMENDER SYSTEM</span></h1>
+       <form action='/' method='get'>
+        <input placeholder="Type movie title" name="title"/><br/>
+        <input type="submit" value="Search" class="submit" />
+       </form>
+    </div>
+    <div> <h3><p align="center"> Result; </p> </h3>{{ res }} </div>
+    <div><h4><p align="center"> Recommendations;</p> </h4> {{ rec }} </div>
+
+  </body>
+</html>
